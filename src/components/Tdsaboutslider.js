@@ -36,32 +36,28 @@ class Tdsaboutslider extends React.Component {
                         <p>When an unknown printer took a galley of type and scrambled.</p>
                     </div>
                     <Row className="mt-4" >
-                        <Col className="text-left"><h6 className="mb-0">Branding</h6></Col>
+                        <Col className="text-left"><h6 className="mb-0">Policy</h6></Col>
                         <Col className="text-right"><h6 className="mb-0">95%</h6></Col>
                     </Row>
                     <Progress value="95" animated color="orange" className="mb-3" />
                     <Row>
-                        <Col className="text-left"><h6 className="mb-0">Marketing</h6></Col>
+                        <Col className="text-left"><h6 className="mb-0">Law</h6></Col>
                         <Col className="text-right"><h6 className="mb-0">95%</h6></Col>
                     </Row>
                     <Progress value={95} animated color="orange" className="mb-3" />
                     <Row>
-                        <Col className="text-left"><h6 className="mb-0">Web Design</h6></Col>
+                        <Col className="text-left"><h6 className="mb-0">National and International Issues</h6></Col>
                         <Col className="text-right"><h6 className="mb-0">95%</h6></Col>
                     </Row>
                     <Progress value={95} animated color="orange" className="mb-3" />
-                    <Row>
-                        <Col className="text-left"><h6 className="mb-0">Web Development</h6></Col>
-                        <Col className="text-right"><h6 className="mb-0">92%</h6></Col>
-                    </Row>
-                    <Progress value="92" animated color="orange" />
+
 
                 </div>
 
 
                 <div className="item">
                     <div className="title-box text-left mb-0">
-                        <h2 className="mb-0">Know About Our   <b>Mission</b></h2>
+                        <h2 className="mb-0">Notre   <b>Mission</b></h2>
                         <h4 className="mt-0 mb-2 sub-title">We Are Digital <span>Marketing & Branding</span></h4>
                     </div>
                     <p>When an unknown printer took a galley of type and scrambled. </p>

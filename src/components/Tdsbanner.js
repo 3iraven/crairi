@@ -44,7 +44,7 @@ class Tdsbanner extends React.Component {
                         <div className="banner-one banner-img">
                             <Container>
                                 <div className="banner-text text-center">
-                                    <h1 >THE BEST  <span> CONGOLESE </span>   & THINK TANK</h1>
+                                    <h1 >  <span> CONGOLESE </span>   & THINK TANK</h1>
                                     <p>Prof Jose K.</p>
                                     <div className="d-flex justify-content-center">
                                         <Button color="primary mr-3">Get Started</Button>
