@@ -1,0 +1,76 @@
+/* Our Latest Pricing Section Start  css*/
+
+.pricing-tab .nav-tabs {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+    border: none;
+}
+.pricing-tab .nav-tabs a {
+  
+    background: var(--bggrey);
+    border: none;
+    border-radius: 30px;
+    margin: 0 5px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 9px 35px;
+    color: #686868;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.pricing-tab .nav-tabs a.active, .pricing-tab .nav-tabs a:hover {
+    background: var(--orange);
+    color: #fff;
+}
+.nav-tabs li{ 
+    display: inline-block;
+}
+
+.pricing-table {
+    text-align: center;
+   
+    padding-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 30px 0 rgba(72,73,121,.15);
+    border: 1px solid transparent;
+    transition: .4s;
+}
+.pricing-header {
+    padding: 40px 20px;
+    border-bottom: 1px solid #e4e4e4;
+    transition: .4s;
+    font-size: 18px;
+    font-weight: 700;
+    color:var(--black);
+    text-transform: uppercase;
+}
+.price {
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: var(--orange);
+}
+sup {
+    top: -.5em;
+}
+.pricing-features {
+    padding: 0;
+    margin: 0 0 20px;
+    list-style-type: none;
+}
+.pricing-features li {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--light);
+    margin-bottom: 20px;
+}
+
+.pricing-table.active{
+    border: 1px solid var(--orange);
+}
+.pricing-table.active .pricing-header {
+    background: var(--orange);
+    color: var(--white);
+}

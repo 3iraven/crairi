@@ -1,0 +1,40 @@
+
+/* Footer  Section Start  css*/
+footer{
+    background:var(--black);
+    padding: 25px 0;
+
+    
+}
+footer p{
+    color: var(--white);
+    margin: 0;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+.footer-menu a{
+    color: var(--white);
+    background-color: transparent;
+}
+.footer-menu a:first-child:before {
+    display: none;
+}
+.footer-menu a:hover{
+    color: var(--orange);
+}
+.footer-menu a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    background: #fff;
+    width: 2px;
+    height: 15px;
+}

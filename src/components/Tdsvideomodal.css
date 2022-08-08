@@ -1,0 +1,25 @@
+/* Hero Section Start  Watch Now modal csa */
+
+.modal-dialog.modal-video{
+    max-width: 940px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.modal-video .close{
+    position: absolute;
+    z-index: 2;
+    top: -35px;
+    right: -35px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border: none;
+    color: var(--white);
+    background: transparent;
+    opacity: 1;
+}

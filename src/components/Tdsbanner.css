@@ -1,0 +1,116 @@
+/* Hero Section Start css */
+.banner-img{
+
+    height: 100vh;
+    overflow: hidden;
+
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+.banner-one{
+    background: url(../images/main-banner.jpg) no-repeat 0 0;
+    background-color: #ddd;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-two{
+    background: url(../images/main-banner1.jpg) no-repeat 0 0;
+    background-color: #ddd;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-img:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
+    background-position: 50%;
+    
+    background-repeat: repeat;
+    background-position: 0 top;
+}
+.banner .owl-nav.disabled + .owl-dots {
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+}
+.banner-text h1, .banner-text p{
+    color:var(--white);
+}
+h1{
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+.banner-text{
+    padding: 0 25px;
+}
+.banner-text p{
+    font-size: 20px;
+    letter-spacing:1px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.banner-text h1 span{
+    color: var(--orange);
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+@keyframes swell {
+    0%,
+    100% {
+        transform: translate3d(0, -25px, 0);
+    }
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+}
+
+
+.banner .banner-owl .owl-nav [class*=owl-] {
+    position: absolute;
+    left: 40px;
+    top: 45%;
+    font-size: 0px;
+    width: 40px;
+    height: 60px;
+    text-align: center;
+    color: var(--white);
+    line-height: 50px;
+    margin: 0;
+    background:var(--orange);
+    border-radius:100%;
+    transition: .4s;
+    background-size: 100%;
+}
+.banner .banner-owl .owl-nav .owl-next {
+    left: auto;
+    right: 40px;
+    
+    cursor: pointer;
+    background:url(../images/next.svg) no-repeat center;
+}
+.banner .banner-owl .owl-nav {
+    margin-top: 0;
+}
+
+.banner .banner-owl .owl-nav .owl-prev{
+    background:url(../images/back.svg) no-repeat center;
+}
